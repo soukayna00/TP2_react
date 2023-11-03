@@ -1,5 +1,6 @@
 {
-  
+  "homepage":"https://soukayna00.github.io/TP2_react",
+
   "name": "tp2_react",
   
   "version": "0.1.0",
@@ -46,7 +47,11 @@
   "test": "react-scripts test",
   
     
-  "eject": "react-scripts eject"
+  "eject": "react-scripts eject",
+  
+  "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   
   },
   
